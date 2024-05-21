@@ -1,0 +1,48 @@
+body {
+    margin: 0px;
+    padding: 0px;  
+    background-color: skyblue;
+}
+
+header {
+    background-color: darkblue;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+nav {
+    background-color: gold;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    
+}
+nav a {
+    color: darkblue;
+    text-decoration: none;
+    padding: 5px;
+}
+nav a:hover {
+    background-color: lightskyblue;
+}
+main {
+    padding: 20px;
+    text-align: center;
+}
+
+nav ul li {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+    margin: 0;
+    display: inline-block;
+}
+
+form {
+    align-items: right;
+    justify-content: right;
+    display: flex;
+}
+
